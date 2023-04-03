@@ -1,0 +1,6 @@
+# Executables
+minishell
+
+# Prerequisites
+*.d
+
