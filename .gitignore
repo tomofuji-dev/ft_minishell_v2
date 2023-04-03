@@ -4,3 +4,5 @@ minishell
 # Prerequisites
 *.d
 
+# Object files
+src/*.o
