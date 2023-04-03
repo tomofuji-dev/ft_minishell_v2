@@ -24,6 +24,8 @@ assert() {
 
 # Empty line (EOF)
 assert ''
+assert '/bin/pwd'
+assert '/bin/echo'
 
 cleanup
 echo 'all OK'
