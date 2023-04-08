@@ -49,9 +49,7 @@ int	main(void)
 		line = readline("minishell$ ");
 		if (line == NULL)
 			break ;
-		else if (!*line)
-			continue ;
-		else
+		if (*line)
 			add_history(line);
 		status = interpret(line);
 		free(line);
